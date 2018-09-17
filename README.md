@@ -1,6 +1,6 @@
 # Resume
 
-Resume of Kazuya Gosho, built with Webpack + Pug + Postcss.
+Resume of Melusi Khumalo, built with Webpack + Pug + Postcss.
 
 ![screenshot](https://github.com/acro5piano/resume/blob/master/screenshot.en.png)
 
