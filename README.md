@@ -35,7 +35,6 @@ This runs your Chrome headlessly and take an image.
 - [x] Add script for taking screenshot.
 - [ ] Add ESLint for stability.
 - [ ] Add Flow for type-safe and null-safe.
-- [ ] Internationalisation. currently I need `en` and `ja`. For the time being create `index.ja.pug`.
 - [ ] Use React.js or Vue.js for template. This is for HMR and scoped CSS and internationalisation.
 - [ ] Add script for build. Generate multilingual PDF to `/dist`.
 - [ ] `screenshot` command Internationalisation.
