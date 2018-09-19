@@ -167,12 +167,22 @@ yarn start
 <h1 id="todo">TODO</h1>
 <ul>
 <li>[x] Add script for taking screenshot.</li>
+<li>[x] Add Gitbook for styled README file.</li>
 <li>[ ] Add ESLint for stability.</li>
 <li>[ ] Add Flow for type-safe and null-safe.</li>
 <li>[ ] Use React.js or Vue.js for template. This is for HMR and scoped CSS and internationalisation.</li>
 <li>[ ] Add script for build. Generate multilingual PDF to <code>/dist</code>.</li>
 <li>[ ] <code>screenshot</code> command Internationalisation.</li>
 <li>[ ] Create GitHub page or Netlify implementation to render this as actual web page.</li>
+</ul>
+<h1 id="lighthouse">Lighthouse</h1>
+<ul>
+<li>[ ] Does not respond with a 200 when offline</li>
+<li>[ ] User will not be prompted to Install the Web App - Failures: No manifest was fetched, Site does not register a service worker.</li>
+<li>[ ] Does not redirect HTTP traffic to HTTPS</li>
+<li>[ ] Does not register a service worker</li>
+<li>[ ] Is not configured for a custom splash screen - Failures: No manifest was fetched.</li>
+<li>[ ]Address bar does not match brand colors - Failures: No manifest was fetched.</li>
 </ul>
 
                                 
@@ -209,7 +219,7 @@ yarn start
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-09-19T03:35:40.994Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-19T03:33:12.901Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-09-19T04:27:47.432Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-19T04:03:18.124Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

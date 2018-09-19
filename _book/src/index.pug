@@ -1,7 +1,11 @@
 doctype html
 html(lang='en')
   head
-    block title
+    title My Resume
+    meta(name="HandheldFriendly" content="true")
+    meta(name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1")
+    meta(meta name="description" content="My Resume")
+    meta(name="theme-color" content="#555")
     meta(charset='UTF-8')
     link(href='https://fonts.googleapis.com/css?family=Khula:400', rel='stylesheet')
     link(href="https://fonts.googleapis.com/css?family=Raleway", rel="stylesheet")
@@ -20,17 +24,21 @@ html(lang='en')
       .contact
         .row
           .three.columns.contact-each-first
-            p.contact-content English, isiZulu
             p.contact-heading Languages
+            p.contact-content English, isiZulu
+
           .three.columns.contact-each-second
-            p.contact-content +27737402122
             p.contact-heading Phone Number
+            p.contact-content +27737402122
+
           .three.columns.contact-each-third
-            p.contact-content.contact-content-email melusi.l.k@gmail.com
             p.contact-heading Email
+            p.contact-content.contact-content-email melusi.l.k@gmail.com
+
           .three.columns.contact-each-last
-            p.contact-content Cape Town, South Africa
             p.contact-heading Location
+            p.contact-content Cape Town, South Africa
+
 
       .row.u-doc-container
         .six.columns

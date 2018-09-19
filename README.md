@@ -40,3 +40,12 @@ This runs your Chrome headlessly and take an image.
 - [ ] Add script for build. Generate multilingual PDF to `/dist`.
 - [ ] `screenshot` command Internationalisation.
 - [ ] Create GitHub page or Netlify implementation to render this as actual web page.
+
+# Lighthouse
+
+- [ ] Does not respond with a 200 when offline
+- [ ] User will not be prompted to Install the Web App - Failures: No manifest was fetched, Site does not register a service worker.
+- [ ] Does not redirect HTTP traffic to HTTPS
+- [ ] Does not register a service worker
+- [ ] Is not configured for a custom splash screen - Failures: No manifest was fetched.
+- [ ]Address bar does not match brand colors - Failures: No manifest was fetched.
