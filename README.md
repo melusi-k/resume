@@ -33,6 +33,7 @@ This runs your Chrome headlessly and take an image.
 # TODO
 
 - [x] Add script for taking screenshot.
+- [x] Add Gitbook for styled README file.
 - [ ] Add ESLint for stability.
 - [ ] Add Flow for type-safe and null-safe.
 - [ ] Use React.js or Vue.js for template. This is for HMR and scoped CSS and internationalisation.
