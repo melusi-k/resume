@@ -1,7 +1,11 @@
 doctype html
 html(lang='en')
   head
-    block title
+    title My Resume
+    meta(name="HandheldFriendly" content="true")
+    meta(name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1")
+    meta(meta name="description" content="My Resume")
+    meta(name="theme-color" content="#555")
     meta(charset='UTF-8')
     link(href='https://fonts.googleapis.com/css?family=Khula:400', rel='stylesheet')
     link(href="https://fonts.googleapis.com/css?family=Raleway", rel="stylesheet")
@@ -19,23 +23,26 @@ html(lang='en')
 
       .contact
         .row
-          .three.columns.contact-each-first
-            p.contact-content English, isiZulu
+          .four.columns.contact-each-first
             p.contact-heading Languages
-          .three.columns.contact-each-second
-            p.contact-content +27737402122
+            p.contact-content English | isiZulu
+
+          .four.columns.contact-each-second
             p.contact-heading Phone Number
-          .three.columns.contact-each-third
-            p.contact-content.contact-content-email melusi.l.k@gmail.com
+            p.contact-content +27737402122
+
+          .four.columns.contact-each-third
             p.contact-heading Email
-          .three.columns.contact-each-last
-            p.contact-content Cape Town, South Africa
+            p.contact-content.contact-content-email melusi.l.k@gmail.com
+
+          .four.columns.contact-each-last
             p.contact-heading Location
+            p.contact-content Cape Town
+
 
       .row.u-doc-container
         .six.columns
-
-          h2.u-section-title Work Experience
+          .h2.u-section-title Work Experience
           .work-each
             p.u-each-title
               span.u-each-organization Ladysmith Emnambithi Municipality
@@ -74,35 +81,36 @@ html(lang='en')
                 li Set up, maintain and remove user network accounts where appropriate
                 li Carry out routine network maintenance tasks
 
-            .work-each
-                  p.u-each-title
-                    span.u-each-organization Sage Africa
-                    span.u-each-period 2017.02 ~ 2017.04
-                  p.u-each-subtitle Junior Payroll Consultant
 
-            .work-each
-                    p.u-each-title
-                      span.u-each-organization Hereford Group
-                      span.u-each-period 2017.04 ~ 2017.07
-                    p.u-each-subtitle Advisor
+          .work-each
+              p.u-each-title
+                span.u-each-organization Sage Africa
+                span.u-each-period 2017.02 ~ 2017.04
+              p.u-each-subtitle Junior Payroll Consultant
 
-            .work-each
-                      p.u-each-title
-                        span.u-each-organization Add Colour
-                        span.u-each-period 2017.06 ~ 2018.01
-                      p.u-each-subtitle UI Designer
+          .work-each
+              p.u-each-title
+                span.u-each-organization Hereford Group
+                span.u-each-period 2017.04 ~ 2017.07
+              p.u-each-subtitle Advisor
 
-            .work-each
-                        p.u-each-title
-                          span.u-each-organization Sompisi IT Solutions
-                          span.u-each-period 2018.02 ~ 2018.06
-                        p.u-each-subtitle Developer
+          .work-each
+              p.u-each-title
+                span.u-each-organization Add Colour
+                span.u-each-period 2017.06 ~ 2018.01
+              p.u-each-subtitle UI Designer
 
-            .work-each
-                          p.u-each-title
-                            span.u-each-organization MADE Code
-                            span.u-each-period 2018.07 ~ Current
-                          p.u-each-subtitle Scrum Master
+          .work-each
+              p.u-each-title
+                span.u-each-organization Sompisi IT Solutions
+                span.u-each-period 2018.02 ~ 2018.06
+              p.u-each-subtitle Developer
+
+          .work-each
+              p.u-each-title
+                span.u-each-organization MADE Code
+                span.u-each-period 2018.07 ~ Current
+              p.u-each-subtitle Scrum Master
 
 
           .education
@@ -119,40 +127,62 @@ html(lang='en')
 
 
         .six.columns
-
           .education
             h2.u-section-title Project Management Skills
             ul
               li
-                span.oss-title Skill
-                p.oss-description - Description
+                span.oss-title Asana
               li
-                span.oss-title Skill
-                p.oss-description - Description
+                span.oss-title Jira
+              li
+                span.oss-title Microsoft Projects
+              li
+                span.oss-title Project Planning
+              li
+                span.oss-title Project Reporting
+              li
+                span.oss-title Use Case Analysis
+              li
+                span.oss-title Business Cases Analysis
 
 
           .education
             h2.u-section-title Development Skills
             ul
-              li Linux (5 years)
-              li PHP (5 years)
-              li HTML, CSS (5 years)
-              li Laravel (2 years)
-              li JavaScript, ECMAScript (2 years)
-              li SQL (2 years)
-              li AWS, CircleCI, GitHub (2 years)
-              li Node.js (1 year)
-              li Vue.js (1 year)
-              li React, React Native (1 year)
-              li Docker (1 year)
+              li
+                span.oss-title Linux
+              li
+                span.oss-title Android, iOS
+              li
+                span.oss-title HTML, CSS
+              li
+                span.oss-title Laravel
+              li
+                span.oss-title JavaScript, ECMAScript
+              li
+                span.oss-title SQL
+              li
+                span.oss-title AWS, CircleCI, GitHub
+              li
+                span.oss-title Node.js
+              li
+                span.oss-title Vue.js
+              li
+                span.oss-title React, React Native
+              li
+                span.oss-title Docker
+              li
+                span.oss-title Sharepoint
+              li
+                span.oss-title Wordpress
+
 
           .education
             h2.u-section-title Profile Links
             ul
-              li https://github.com/acro5piano
-              li https://www.linkedin.com/in/kay-gosho-587a05121
-              li https://acro5piano.github.io
-              li https://dev.to/acro5piano
-              li https://qiita.com/acro5piano (Japanese website)
+              li
+                span.oss-title https://github.com/melusi-k
+              li
+                span.oss-title https://www.linkedin.com/in/melusi-khumalo-01530995
 
     script(src='/bundle.js')

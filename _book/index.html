@@ -145,32 +145,19 @@
                                 
                                 <h1 id="resume">Resume</h1>
 <p>Resume of Melusi Khumalo, built with Webpack + Pug + Postcss.</p>
-<p><img src="https://github.com/acro5piano/resume/blob/master/screenshot.en.png" alt="screenshot"></p>
 <h1 id="getting-started">Getting started</h1>
 <p>After checking out the repo, run:</p>
 <pre><code>yarn install
 yarn start
 </code></pre><p>open localhost:3000 and you can see my resume.</p>
 <h1 id="write-your-resume-with-this-template">Write your resume with this template</h1>
-<p>Feel free to write your resume with this template, if you are enough odd to do so.</p>
+<p>Feel free to write your resume with this template, if you are enough to do so.</p>
 <ul>
 <li><code>src/app.postcss</code> is for css</li>
 <li><code>src/index.pug</code> is for template</li>
 <li>If you want to write your resume with sass, just add <code>sass-loader</code></li>
 </ul>
-<h1 id="internationalization">Internationalization</h1>
-<p>Unfortunatelly, we only have really legacy option to this setting.</p>
-<p>To create Japanese resume, <code>HtmlWebpackPlugin</code> in <code>webpack.config.js</code> like this:</p>
-<pre><code>  plugins: [
-    new HtmlWebpackPlugin(
-      {
-        template: &apos;./index.ja.pug&apos;,
-        filename: &apos;index.html&apos;,
-        inject: false
-      }
-    )
-  ]
-</code></pre><h1 id="screenshot">Screenshot</h1>
+<h1 id="screenshot">Screenshot</h1>
 <p>To take a screenshot, just run</p>
 <ul>
 <li><code>yarn start</code></li>
@@ -180,20 +167,23 @@ yarn start
 <h1 id="todo">TODO</h1>
 <ul>
 <li>[x] Add script for taking screenshot.</li>
+<li>[x] Add Gitbook for styled README file.</li>
 <li>[ ] Add ESLint for stability.</li>
 <li>[ ] Add Flow for type-safe and null-safe.</li>
-<li>[ ] Internationalization. currently I need <code>en</code> and <code>ja</code>. For the time being create <code>index.ja.pug</code>.</li>
-<li>[ ] Use React.js or Vue.js for template. This is for HMR and scoped CSS and internationalization.</li>
+<li>[ ] Use React.js or Vue.js for template. This is for HMR and scoped CSS and internationalisation.</li>
 <li>[ ] Add script for build. Generate multilingual PDF to <code>/dist</code>.</li>
-<li>[ ] <code>screenshot</code> command Internationalization.</li>
-<li>[ ] Create GitHub page or something to render this as actual web page.<ul>
-<li>[ ] Hopefully, change language interactively.</li>
+<li>[ ] <code>screenshot</code> command Internationalisation.</li>
+<li>[ ] Create GitHub page or Netlify implementation to render this as actual web page.</li>
 </ul>
-</li>
+<h1 id="lighthouse">Lighthouse</h1>
+<ul>
+<li>[ ] Does not respond with a 200 when offline</li>
+<li>[ ] User will not be prompted to Install the Web App - Failures: No manifest was fetched, Site does not register a service worker.</li>
+<li>[ ] Does not redirect HTTP traffic to HTTPS</li>
+<li>[ ] Does not register a service worker</li>
+<li>[ ] Is not configured for a custom splash screen - Failures: No manifest was fetched.</li>
+<li>[ ]Address bar does not match brand colors - Failures: No manifest was fetched.</li>
 </ul>
-<h1 id="contribution">Contribution</h1>
-<p>I am not a native English speaker, so if you find something wrong, please create an issue or send a pr.</p>
-<p>Thanks in advance.</p>
 
                                 
                                 </section>
@@ -229,7 +219,7 @@ yarn start
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-09-20T08:12:24.930Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-19T04:03:18.124Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-09-20T08:19:21.364Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-19T04:03:18.124Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
