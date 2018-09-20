@@ -23,7 +23,8 @@ li {
   @media print {
     margin: 0;
   }
-  /* border-bottom: solid 20px $info; */
+  border-top: solid 5px $info;
+  border-bottom: solid 20px $info;
 }
 
 .eyecatch-title {
